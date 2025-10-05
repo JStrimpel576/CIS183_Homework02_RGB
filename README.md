@@ -1,2 +1,5 @@
 # CIS183_Homework02_RGB
 
+The RGB program allows the user to use three different seekbars, one for red, on for green, and one for blue, to change the color of the background, while also changing any necessary values displayed on the screen. After choosing the color the user wants, they can save the color to a list view using the save color button. After pressing the save color button, the display will reset back to black. The user can save as many colors as they want, however after 7 colors have been saved, the user will have to scroll to see any new saved colors. The user can also click on a color in the list view to display the color's values and also change the background color. If at any point the colors get too light, or dark, the text colors will change to white and black as necessary. 
+
+One problem I had to deal with was with the GUI for the list view. It would cutoff before getting to the bottom of the screen. To fix it, I had to set the list view's height to match the constraint.
